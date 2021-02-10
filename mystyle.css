@@ -1,0 +1,20 @@
+
+body {
+ background-color: green;
+ font-family: "arial";
+}
+
+ul {
+	font: small-caps italic 14px/1 sans-serif;
+}
+
+p {
+  background-color: lime;
+  border-color: purple;
+  border-style: dotted;
+}
+
+h1 {
+	font-size: 35px;
+	color: aqua;
+}
