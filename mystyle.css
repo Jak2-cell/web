@@ -1,6 +1,6 @@
 
 body {
- background-color: green;
+ background-color: #2db021;
  font-family: "arial";
 }
 
@@ -18,3 +18,32 @@ h1 {
 	font-size: 35px;
 	color: aqua;
 }
+
+header nav {
+	padding-right: 35px;
+	float: right;
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu li a {
+	font-size: 13px;
+	position: static;
+	padding: 0px 20px;
+	color: #FFE77AFF
+
+}
+
+.header-left {
+	color: #FFE77AFF;
+	font: small-caps italic 20px/1 sans-serif;
+}
+}
+
+h2 {
+	font: small-caps italic 20px/1 sans-serif
+	color: #FFE77AFF
+}
+
