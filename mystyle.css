@@ -1,49 +1,91 @@
 
 body {
- background-color: #2db021;
- font-family: "arial";
+ font-family: Tahoma, sans-serif;
+ background-color: #3CB371;
+ color: #FAF0E6;
 }
 
 ul {
 	font: small-caps italic 14px/1 sans-serif;
 }
 
-p {
-  background-color: lime;
-  border-color: purple;
-  border-style: dotted;
-}
 
-h1 {
-	font-size: 35px;
-	color: aqua;
-}
-
-header nav {
-	padding-right: 35px;
-	float: right;
-}
-
-#menu li {
-	display: inline-block;
-}
 
 #menu li a {
-	font-size: 13px;
+	font-size: 20px;
 	position: static;
 	padding: 0px 20px;
 	color: #FFE77AFF
 
 }
 
+
+nav {
+	padding-right: 35px;
+	float: right;
+}
+
+#menu li {
+	display: inline-block;
+	float: left;
+}
+
+
 .header-left {
 	color: #FFE77AFF;
-	font: small-caps italic 20px/1 sans-serif;
+	font-family: Tahoma, sans-serif;
+	font-size: 25px;
 }
-}
+
 
 h2 {
 	font: small-caps italic 20px/1 sans-serif
-	color: #FFE77AFF
+	color: #FFE77AFF;
 }
+
+img.center {
+	margin-right: auto;
+	margin-left: auto;
+	display: inline-block;
+	
+}
+
+p.div {
+	margin-right: auto;
+	margin-left: auto;
+	display: inline-block;
+}
+
+
+.flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-right: 30px;
+  text-align: center;
+  
+}
+
+
+h3 {
+	 font-family: Tahoma, sans-serif;
+	 font-size: 25px;
+}
+
+
+.intro {
+	  padding: 0px 50px;
+	    border-color: purple;
+  border-style: dotted;
+  background-color: #2E8B57;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.flexbox-inside > .intro {
+  background-color: #f1f1f1;
+  width: 300px;
+  margin: 30px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 40px;
 
