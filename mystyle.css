@@ -71,6 +71,9 @@ h3 {
 	 font-size: 25px;
 }
 
+img {
+  border: 4px solid #006400;
+}
 
 .intro {
 	  padding: 0px 50px;
