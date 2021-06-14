@@ -9,11 +9,23 @@
 	<body>
 		<h1>Precipation Calculator</h1>
 		<h3>By: Jake Barbaresso, Jack Chien, Lawrence Joa</h3>
-		<h2>Inspirations</h2>
+		<h2>Project Descriptions</h2>
 		<p>
 			The origin of this calculator comes from precipitation questions in chemistry class.
 			This type of questions are typically very lengthy and, quite frankly, annoying to solve.
 			So we decided to build a precipitation calculator!
+		</p>
+		<h2>Instructions</h2>
+		<center><img src="csimage1.jpg"></center> 
+		<center><img src="csimage2.jpg"></center>
+		<p>
+			It will prompt you to enter both parts of the two ionic compounds you would be mixing. Next, you will be entering the Ksp value in scientific notation. Finally, enter the molarities of both reactants, then the volumes. The program will tell you whether a precipitate forms and the Q value(ion product) of the reaction.
+		</p>
+		<p>
+			Example 1: 
+			150 mL of 0.25 M K2 SO4  mixed with 150 mL of 0.01 M 2AgNO3  Ksp = 1.2 x 10^-5
+			Example 2:
+			100 mL of 0.0015 M CaCl2  mixed with 50 mL of 0.0081 M K2SO4  Ksp = 2.4 x 10^-5
 		</p>
 		<h2>How It Works</h2>
 		<p>
@@ -27,17 +39,18 @@
 			although this shouldn’t happen in regular use as the whole purpose of the calculator is to determine precipitate for salts with low solubility ("insoluble").
 			The right-side products of this equilibrium reaction will then be inserted into an equation used to calculate the quotient reaction. 
 		</p>
-		<h2>Screenshots of the Program</h2>
-		<center><img src="csimage1.jpg"></center> 
-		<center><img src="csimage2.jpg"></center>
-		<p>
-			It will prompt you to enter both parts of the two ionic compounds you would be mixing. Next, you will be entering the Ksp value in scientific notation. Finally, enter the molarities of both reactants, then the volumes. The program will tell you whether a precipitate forms and the Q value(ion product) of the reaction.
-		</p>
-		<h2>Examples to try out</h2>
-		<p>
-			Example 1: 
-			150 mL of 0.25 M K2 SO4  mixed with 150 mL of 0.01 M 2AgNO3  Ksp = 1.2 x 10^-5
-			Example 2:
-			100 mL of 0.0015 M CaCl2  mixed with 50 mL of 0.0081 M K2SO4  Ksp = 2.4 x 10^-5
-		</p>
+		<h2>Files</h2>
+		<ul>
+			<li>final.html: This html file</li>
+			<li>calcstyle.css: the css file styling this html file</li>
+			<li>csimages1.jpg: screenshot of an example inputting screen of the program</li>
+			<li>csimages2.jpg: screenshot of an example input of the program</li>
+			<li>solubility.csv: list of ions that usually are soluble but have a few exceptions</li>
+			<li>insolubility.csv: list of ions that usually are insoluble but have a few exceptions</li>
+			<li>new (1).py: the precipitation calculator program itself</li>
+		</ul>
+		<h2>Bugs, Errors and Things to be Aware of</h2>
+		<ul>
+			<li>Some exceptions to solubility rules are not accounted for due to the complexity of some exceptions in chemistry.</li>
+		</ul>
 	</body>
