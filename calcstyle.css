@@ -50,7 +50,18 @@ p {
 	font-weight: 300;
 	color: #2F4F4F;
 }
-	
+ul {
+	background-color: #ccff99;
+	border: medium solid white;
+	width: 900px;
+    padding: 10px;
+	margin: auto;
+	text-align: center;
+	font-size: 1.1em;
+	font-family: Monospace;
+	font-weight: 300;
+	color: #2F4F4F;
+}	
 img {
 	padding: 10px;
 	margin-bottom: 20px;
