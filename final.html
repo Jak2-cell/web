@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<link href = "calcstyle.css" rel = "stylesheet">
+	<head>
+		<title>Precipitation Calculator</title>
+	</head>
+	
+	<body>
+		<h1>Precipation Calculator</h1>
+		<h3>By: Jake Barbaresso, Jack Chien, Lawrence Joa</h3>
+		<h2>Inspirations</h2>
+		<p>
+			The origin of this calculator comes from precipitation questions in chemistry class.
+			This type of questions are typically very lengthy and, quite frankly, annoying to solve.
+			So we decided to build a precipitation calculator!
+		</p>
+		<h2>How It Works</h2>
+		<p>
+			A precipitation calculator uses elements of chemistry in that it takes two volumes of specific molar amounts of substances and determines whether or not a precipitate will form when they are mixed together.
+			The information that one will need to input to use this calculator will be the two before-mentioned volumes of substances with specific molar quantities,
+			as well as a K<sub>sp</sub> value, which is the equilibrium constant for the dissolving of a substance.
+			What will then happen is the calculator will determine the reaction and subsequent products that the two substances create.
+			With this new reaction containing both reactants and products, the calculator will consult a csv file containing Ksp values for aqueous solutions.
+			When consulting this csv file, the program will compare the Ksp value to the ion product value to decide if the salt is soluble in solution. If it finds that the salt is very soluble in water
+			(salts that aren’t in the csv and matches specific solubility rules), it will then return “soluble” as the answer,
+			although this shouldn’t happen in regular use as the whole purpose of the calculator is to determine precipitate for salts with low solubility ("insoluble").
+			The right-side products of this equilibrium reaction will then be inserted into an equation used to calculate the quotient reaction. 
+		</p>
+		<h2>Screenshots of the Program</h2>
+		<center><img src="csimage1.jpg"></center> 
+		<center><img src="csimage2.jpg"></center>
+		<p>
+			It will prompt you to enter both parts of the two ionic compounds you would be mixing. Next, you will be entering the Ksp value in scientific notation. Finally, enter the molarities of both reactants, then the volumes. The program will tell you whether a precipitate forms and the Q value(ion product) of the reaction.
+		</p>
+		<h2>Examples to try out</h2>
+		<p>
+			Example 1: 
+			150 mL of 0.25 M K2 SO4  mixed with 150 mL of 0.01 M 2AgNO3  Ksp = 1.2 x 10^-5
+			Example 2:
+			100 mL of 0.0015 M CaCl2  mixed with 50 mL of 0.0081 M K2SO4  Ksp = 2.4 x 10^-5
+		</p>
+	</body>
